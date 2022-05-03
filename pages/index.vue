@@ -17,7 +17,7 @@ export default {
   },
   head() {
     return {
-      title: "Connor Rothschild",
+      title: "aimlabs",
       meta: [...this.meta],
     };
   },

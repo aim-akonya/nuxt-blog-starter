@@ -1,13 +1,8 @@
 <template>
-  <nav
-    class="navbar is-fixed-top"
-    :class="color"
-    role="navigation"
-    aria-label="main navigation"
-  >
+  <nav class="navbar is-fixed-top" :class="color" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <NuxtLink class="navbar-item" to="/">
-        <span class="has-text-weight-boldest">Connor Rothschild</span>
+        <span class="has-text-weight-boldest">aimlabs</span>
       </NuxtLink>
 
       <a
@@ -27,10 +22,8 @@
 
     <div id="navbarID" class="navbar-menu" :class="{ 'is-active': isVisible }">
       <div class="navbar-end" :class="color">
-        <NuxtLink class="navbar-item" :to="{ path: '/about' }">
-          About
-        </NuxtLink>
-        <NuxtLink class="navbar-item" :to="{ path: '/post' }"> Blog </NuxtLink>
+        <NuxtLink class="navbar-item" :to="{ path: '/about' }">About</NuxtLink>
+        <NuxtLink class="navbar-item" :to="{ path: '/post' }">Blog</NuxtLink>
         <!-- Have a resume hosted online somewhere? Uncomment below and add your resume link to the href! -->
         <!-- Or, change the text of 'Resume' to anything else you want to link to! (Twitter, GitHub, etc): -->
         <!-- <a
@@ -40,7 +33,7 @@
           target="_blank"
         >
           Resume
-        </a> -->
+        </a>-->
       </div>
     </div>
   </nav>
